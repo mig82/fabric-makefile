@@ -13,13 +13,14 @@ fabric_cmd=java -jar mfcli.jar
 
 fabric_dir=fabric
 fabric_proj=FooApp
-# Note: Set these three as environment variables so that switching branches won't blank them.
+# Note: Set the following three parameters as environment variables to avoid
+# versioning them along with this file.
 # The 9 digit Fabric account ID —e.g.: 100000001
-fabric_acct=100000001
+#fabric_acct=100000001
 # The developer's user for the Fabric Console —e.g.: jimi.hendrix@purple.com
-fabric_user=user@foo.com
+#fabric_user=user@foo.com
 # The developer's password for the Fabric Console.
-fabric_pssw=1234
+#fabric_pssw=1234
 
 # Get the Fabric JAR and avoid pushing your Fabric password to source control.
 setup:
