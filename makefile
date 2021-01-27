@@ -1,5 +1,7 @@
 SHELL = /usr/bin/env bash
 
+F_CLI_V=9.2.0.0
+
 #fabric_cmd=fabric
 fabric_cmd=java -jar mfcli.jar
 
