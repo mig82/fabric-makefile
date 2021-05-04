@@ -13,6 +13,8 @@ Edit the `makefile` to:
 5. Set an environment variable `fabric_pssw` to your password.
 6. Run `make` or `make setup` to download the `mfcli.jar`.
 
+**Note** that steps 3, 4 and 5 should be set as environment variables in your operating system, rather than hardcoded into the makefile, because you ideally want to add this makefile to source control.
+
 ## Usage
 
 Export your Fabric app by running `make export` and then your SCM's client to
